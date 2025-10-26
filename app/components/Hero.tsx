@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
     <section
       id="home"
       className="flex flex-col items-center justify-center text-center min-h-[40vh] sm:min-h-screen 
-      px-6 sm:px-8 pt-20 sm:pt-24 bg-white"
+      px-6 sm:px-8 pt-30 sm:pt-24 bg-white"
     >
       {/* Container with animation */}
       <motion.div
@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-2 px-5 py-3 text-sm sm:text-base bg-indigo-600 
-          text-white font-medium rounded-md shadow-md hover:bg-indigo-700 transition mb-5 sm:mb-10"
+          text-white font-medium rounded-md shadow-md hover:bg-indigo-700 transition mb-10 sm:mb-10"
         >
           Talk to Me
           <FiArrowRight className="text-white" size={18} />

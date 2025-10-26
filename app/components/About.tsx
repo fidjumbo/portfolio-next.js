@@ -7,7 +7,7 @@ const About: React.FC = () => {
   return (
     <section
       id="about"
-      className="py-10 sm:py-30 rounded-3xl mx-3 scroll-mt-20 px-6 sm:px-10 bg-gray-50 text-center"
+      className="py-15 sm:py-30 rounded-3xl mx-3 scroll-mt-20 px-6 sm:px-10 bg-gray-50 text-center"
     >
       <motion.div
         initial={{ opacity: 0, y: 60 }}
@@ -33,7 +33,8 @@ const About: React.FC = () => {
         <a
           href="/resume.pdf"
           download
-          className="inline-flex items-center gap-2 px-5 py-3 bg-indigo-600 text-white font-medium rounded-md shadow-md hover:bg-indigo-700 transition"
+          className="inline-flex items-center gap-2 px-5 py-3 bg-indigo-600 text-white 
+          font-medium rounded-md mb-3 shadow-md hover:bg-indigo-700 transition"
         >
           <FiDownload size={18} />
           Download Resume
