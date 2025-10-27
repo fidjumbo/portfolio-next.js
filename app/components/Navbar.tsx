@@ -53,18 +53,25 @@ const Navbar: React.FC = () => {
       <nav className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <a
-              href="#home"
-              onClick={(e) => {
-                e.preventDefault();
-                handleScrollTo("#home");
-              }}
-              className="text-lg font-semibold"
-            >
-              Fidelis A Jumbo
-            </a>
-          </div>
+      <div className="shrink-0">
+       <a href="#home" className="font-bold tracking-tight flex items-center space-x-1">
+         {/* Mobile view */}
+        <span className="block md:hidden text-2xl">
+         <span className="text-blue-600 text-3xl">F</span>
+         <span className="text-sky-400 text-2xl font-extrabold align-top">.</span>
+         <span className="text-gray-900 text-xl">jumbo</span>
+        </span>
+
+        {/* Desktop view */}
+         <span className="hidden md:block text-2xl">
+          <span className="text-blue-600 text-3xl">F</span>
+          <span className="text-sky-400 text-2xl font-extrabold align-top">.</span>
+          <span className="text-gray-900 text-xl">jumbo</span>
+          <span className="text-gray-500 text-base font-medium ml-2">/ Full Stack Developer</span>
+         </span>
+        </a>
+       </div>
+
 
           {/* Desktop Links */}
           <div className="hidden md:flex md:items-center md:space-x-6">
