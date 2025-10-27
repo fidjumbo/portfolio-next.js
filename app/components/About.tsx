@@ -31,7 +31,7 @@ const About: React.FC = () => {
 
         {/* Resume Button */}
         <a
-          href="/resume.pdf"
+          href="/FS-resume.pdf"
           download
           className="inline-flex items-center gap-2 px-5 py-3 bg-indigo-600 text-white 
           font-medium rounded-md mb-3 shadow-md hover:bg-indigo-700 transition"
