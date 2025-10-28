@@ -52,7 +52,7 @@ const projects: Project[] = [
       "Tailwind",
     ],
     github: "https://github.com/fidjumbo/social-media-app-nextjs",
-    live: "https://social-media-app-nextjs-gxyy.vercel.app/",
+    live: "https://socialmediafj.vercel.app/",
     image: "/images/social-media.png",
   },
   {
